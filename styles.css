@@ -1,6 +1,15 @@
-h1 {
-  color: red;
+body {
+  background: #FF1493;
 }
-font-family {
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">;
+h1 {
+  color: #ffb6c1;
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#CAKES {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
