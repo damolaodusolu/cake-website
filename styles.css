@@ -1,7 +1,12 @@
 h1 {
   color: #ffb6c1;
   font-family: "Lobster", cursive;
+  font-size: 100px;
+  text-align: center;
 }
-br {
+h2 {
+  text-align: center;
+}
+#CAKES {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
