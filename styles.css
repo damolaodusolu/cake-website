@@ -6,10 +6,17 @@ h1 {
   font-family: "Lobster", cursive;
   font-size: 100px;
   text-align: center;
+<<<<<<< HEAD
 }
 h2 {
   text-align: center;
 }
+=======
+}
+h2 {
+  text-align: center;
+}
+>>>>>>> experiment-features
 #CAKES {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
