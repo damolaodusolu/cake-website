@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+div {
+   height: 200px;
+   background-size: cover;
+   margin: 40px 0 0 0;
+   position: relative;
+   border-radius: 12px;
+   }
+
+  .complex{
+    background-image: url('file:///C:/Users/hayley/Documents/GitHub/cake-website/complex.jpg');
+}
+  .birthday{
+    background-image: url('file:///C:/Users/hayley/Documents/GitHub/cake-website/birthday.jpg');
+}
+.dessert {
+  background-image: url(http://dash.ga.co/assets/dessertcourse.jpg);
+}
+
+</style>
+
+</head>
+<body>
+<h1>All cakes below</h1>
+
+<div class="complex">
+<p>This is a caramel cake £14<br />
+<small>Description of caramel cake. </small></p>
+<button>Add to cart £14</button>
+</div>
+
+<div class="birthday">
+<p>This is a birthday cake £30<br />
+<small>Description of a birthday cake.</small></p>
+<button>Add to cart £30</button>
+</div>
+
+<div class="dessert">
+<p>YUMMY £££<br />
+<small>CAKE</small></p>
+<button>Add to cart £50</button>
+</div>
+
+<script>
+    $("button").on("click", function() {
+      alert("Price!");
+    });
+  </script>
+</body>
