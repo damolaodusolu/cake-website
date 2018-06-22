@@ -1,13 +1,14 @@
 body {
-  background: #FCFBE3;
+  background: #BCDEEF;
 }
 h1 {
-  color: #ffb6c1;
+  color: #F49AC1;
   font-family: "Lobster", cursive;
   font-size: 200px;
   text-align: center;
 }
 h2 {
+  color: #F49AC1;
   text-align: center;
   font-family: 'Dancing Script', cursive;
 }
