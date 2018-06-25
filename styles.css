@@ -1,41 +1,19 @@
-html, body {
-  height:100%;
-  background: rgb(188, 222, 239);
-  }
-
 .topbanner {
-    background: #68C5EA;
-    padding-top: 5px;
+    background: rgba(255, 153, 255, 0.3);
+    padding-top: 10px;
     text-align: center;
     margin-top: -40px;
     display: block;
-  margin: 0 auto;
-  border-radius: 5px;
-  font-family: 'Amatic SC', cursive;
-  font-size: 10px;
-  line-height: 10px;
-  }
-
-.titlepicture{
-background: rgb(188, 222, 239);
-height:100%;
-width:100%;
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
+}
 ul{
-  padding: 20px;
-color: rgb(244,154,193);
-  background: rgb(244,154,193);
-  }
+  padding: 10px;
+}
 li{
   display: inline;
-  padding:40px 40px 40px 40px;
+  padding:200px 200px 200px 200px;
   text-align: center;
-  font-size: 50px;
-  font-family: "Dancing script", cursive;
-  color: rgb(244,154,193);
+  font-size: 80px;
+  color: pink;
 }
 hr {
     display: block;
@@ -43,33 +21,45 @@ hr {
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    border-width: 5px;
-    border-color: pink;
+    border-style: inset;
+    border-width: 1px;
+    border-color: black;
 }
-
 .picture {
   background-position: center;
   text-align: center;
   background-size: cover;
-    }
+  }
 
+.top {
+  background-color: rgb(188,222,239);
+}
 .words {
   background-position: center;
   text-align: center;
-  color: black;
 }
-
+}
 h1 {
+  color: #ffb6c1;
+  font-family: "monterey regular", cursive;
+  font-size: 300px;
   text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 200px;
-  color: #68C5EA;
 }
 h2 {
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  color: #F49AC1;
+  font-family: "Dancing Script", cursive;
+  font-size: 200px;
+}
+#CAKES {
+  font-family: "letter gothic bold", sans-serif;
+  font-size: 150px;
+  margin-top: -10;
+  text-align: center;
+}
+#Est {
+  font-family: "news gothic MT regular";
+  text-align: center;
+  font-size: 100px;
 }
 
 .jumbotron {
@@ -79,33 +69,18 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
 }
-.Containercontact{
-  color: rgb(244,154,193);
-    font-size: 25px;
-background: rgba(255, 255, 255, 0.6);
-        width: 40%;
-				margin: 0 auto;
-				margin-top: 20px;
-        margin-bottom: 100px;
-				border-radius: 5px;
-				padding: 20px 40px 20px 40px;
-				text-align: left;
-				line-height: 30px;
-}
-p{
-  text-align: center;
-    font-size: 40px;
-}
+
 div.container {
-  margin: 60px;
-   border: 5px solid #ccc;
+  margin: 5px;
+   border: 1px solid #ccc;
    width: 180px;
-      }
+}
 div.row {
   margin: 5px;
-  width: 1200px;
+  width: 5000px;
   text-align: center;
   font-size: 40px;
+  background-color: rgb(188,222,239);
 }
 .desc{
   font-size: 100px;
